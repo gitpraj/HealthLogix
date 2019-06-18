@@ -1,0 +1,347 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 100px;
+    }
+}
+
+.login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: left;
+    padding-top: 16px;
+}
+
+
+
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 20px;
+    height:200px;
+}
+
+/* Add a card effect for articles */
+.leftcolumn .card {
+    background-color: #dd7fa2;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rightcolumn .card {
+    background-color: #7faedd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+.body-start {
+    margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+    .body-start {
+        margin-left: 20%;
+    }
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+select, option {
+    width: 100%;
+}
+
+.btn-reg {
+    float: left;
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 25px;
+    background: #054790;
+    color: white;
+}
+
+    .btn-reg:hover {
+        background: #336AA8;
+        color: white;
+    }
+
+.input-w-60 {
+     width: 50% ; 
+    /*margin: auto;*/
+    border-top-style: none;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    border-radius: 0;
+    outline: none;
+    /* border: none !important; */
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.input-w-60-red {
+     width: 50% ; 
+    /*margin: auto;*/
+    border-color: red;
+    border-top-style: none;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    border-radius: 0;
+    outline: none;
+    /* border: none !important; */
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.help-block {
+    color: red;
+    margin: 0;
+}
+
+.navbar-brand > img {
+    margin-top: -7px;
+}
+
+@media (max-width: 768px) {
+    /* .col-lg-3 {
+      width: 100%;
+    } */
+
+    .reg-body {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        /* width: 50%; */
+        position: relative;
+    }
+
+    .header-title {
+        margin: 40px auto 20px;
+        /* width: 50%; */
+        padding-bottom: 9px;
+        border-bottom: none;
+    }
+
+    .header-title2 {
+        margin: 40px auto 20px;
+        /* width: 50%; */
+        padding-bottom: 9px;
+        border-bottom: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .col-lg-3 {
+        width: 100%;
+    }
+
+    .reg-body {
+        /*margin: 0 auto;*/
+        /*text-align: center;
+        display: block;
+        width: 50%;
+        position: relative;*/
+    }
+
+    .header-title {
+        margin: 40px auto 20px;
+        width: 50%;
+        padding-bottom: 9px;
+    }
+
+    .header-title2 {
+        margin: 40px auto 20px;
+        width: 50%;
+        padding-bottom: 9px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-3 {
+        width: 100%;
+    }
+
+    .reg-body {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        width: 50%;
+        position: relative;
+    }
+
+    .header-title {
+        margin: 40px auto 20px;
+        width: 50%;
+        padding-bottom: 9px;
+    }
+
+    .header-title2 {
+        margin: 40px auto 20px;
+        width: 50%;
+        padding-bottom: 9px;
+        border-bottom: none;
+    }
+}
+
+.blog_success {
+    float: left;
+}
+
+.logout_button {
+    margin-top: 20%;
+    color: white;
+    background: red;
+    display: block;
+}
+
+
+.bar-group .name-label {
+    text-anchor: end;
+    font-weight: 300;
+    font-size: 1em;
+    fill: #333;
+}
+
+.bar-group .value-label {
+    text-anchor: end;
+    fill: #fff;
+    font-weight: 900;
+    font-size: 0.7em;
+}
+
+/* Fade bars when the chart is hovered */
+.container:hover .bar-group {
+    opacity: 0.3;
+}
+
+/* But don't fade the hovered bar... */
+.container .bar-group:hover {
+    opacity: 1;
+}
+
+    .container .bar-group:hover .name-label {
+        font-weight: 400;
+    }
+
+    .container .bar-group:hover .value-label {
+        font-size: 0.8em;
+    }
+
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+.title {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
